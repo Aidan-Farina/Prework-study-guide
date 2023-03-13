@@ -8,19 +8,21 @@ function listTopics() {
     }
 
 }
+
 function selectTopic() {
-if (randomTopics === 'HTML') {
-  console.log("Let's study HTML!");
-} else if (randomTopics === 'CSS') {
-  console.log("Let's study CSS!");
-} else if (randomTopics === 'Git') {
-  console.log("Let's study Git!");
-} else if (randomTopics === 'JavaScript') {
-  console.log("Let's study JavaScript!");
-} else {
-  console.log('Please try again!');
+    if (randomTopics === 'HTML') {
+    console.log("Let's study HTML!");
+    } else if (randomTopics === 'CSS') {
+    console.log("Let's study CSS!");
+    } else if (randomTopics === 'Git') {
+    console.log("Let's study Git!");
+    } else if (randomTopics === 'JavaScript') {
+    console.log("Let's study JavaScript!");
+    } else {
+    console.log('Please try again!');
+    }
 }
-}
+
 console.log('here are the topics we learned through Prework:');
 listTopics();
 console.log('which topic should we study first?');
